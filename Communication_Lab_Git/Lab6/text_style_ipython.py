@@ -1,0 +1,29 @@
+from IPython.core.display import HTML
+HTML("""
+<style>
+
+div.cell { /* Tunes the space between cells */
+margin-top:1em;
+margin-bottom:1em;
+}
+
+div.text_cell_render h1 { /* Main titles bigger, centered */
+font-size: 2.2em;
+line-height:1.4em;
+text-align:center;
+}
+
+div.text_cell_render h2 { /*  Parts names nearer from text */
+margin-bottom: -0.4em;
+}
+
+
+div.text_cell_render { /* Customize text cells */
+font-family: 'Times New Roman';
+font-size:1.5em;
+line-height:1.4em;
+padding-left:3em;
+padding-right:3em;
+}
+</style>
+""")
